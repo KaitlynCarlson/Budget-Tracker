@@ -1,2 +1,3 @@
-# Budget-Tracker
-PWA Budget Tracker
+# PWA Budget-Tracker
+
+Budget Tracker with offline and online capabilities.

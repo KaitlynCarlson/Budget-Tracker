@@ -1,4 +1,11 @@
-const FILES_TO_CACHE = [`./db.js`, `./index.html`, `./index.js`, `./style.css`];
+const FILES_TO_CACHE = [
+  `/db.js`,
+  `/index.html`,
+  `/index.js`,
+  `/style.css`,
+  `/manifest.webmanifest`,
+  `./images/budgetIcon.png`
+];
 
 const STATIC_CACHE = `static-cache-v1`;
 const RUNTIME_CACHE = `runtime-cache`;

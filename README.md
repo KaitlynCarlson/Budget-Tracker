@@ -38,4 +38,8 @@ node server.js
 
 ## Functionality
 
+An example interaction of adding an expense to our installed Buget Tracker is provided in the giph below:
+
+![Add Expense](./client/assets/images/exampleInteraction.gif)
+
 ## Technologies

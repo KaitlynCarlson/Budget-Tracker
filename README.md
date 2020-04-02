@@ -42,6 +42,29 @@ An example interaction of adding an expense to our installed Buget Tracker is pr
 
 ![Add Expense](./client/assets/images/exampleInteraction.gif)
 
+### Behind the Scenes Functionality
+
+If you navigate to our `index.html` file, which resides inside of our client folder, you will notice something strange. We have some script code written directly in our HTML. Why? This is a small application, so it makes sense to register our service worker right here! We do this by first loading all of our dependant files, for the sake of asynchronous loading, and then we register our service worker with this code here:
+
+```sh
+<script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./service-worker.js", {
+            scope: "/"
+          })
+          .then(res => {
+            console.log(res);
+            console.log("Service Worker registered successfully.");
+          })
+          .catch(error =>
+            console.log("Service Worker registration failed:", error)
+          );
+      }
+```
+
+This code registers our service worker from the file located inside our client folder, `service-worker.js`. Our `service-worker.js` file handles caching, installation, and fetching.
+
 ## Technologies
 
 - JavaScript

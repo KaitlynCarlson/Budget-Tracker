@@ -2,6 +2,8 @@
 
 Installable Budget Tracker PWA with offline and online capabilities. Much of this application was built during an in-class activity during the University of Washington Full-stack Web Development Bootcamp. In this rendition we were tasked with creating a Service Worker and Manifest in order to make this application a PWA.
 
+Check out the app on Heroku today: [PWA Budget Tracker](https://afternoon-reef-37574.herokuapp.com/)
+
 ## Table of Contents
 
 - [Overview](#Overview)

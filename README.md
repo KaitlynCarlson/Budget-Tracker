@@ -63,7 +63,28 @@ If you navigate to our `index.html` file, which resides inside of our client fol
       }
 ```
 
-This code registers our service worker from the file located inside our client folder, `service-worker.js`. Our `service-worker.js` file handles caching, installation, and fetching.
+This code registers our service worker from the file located inside our client folder, `service-worker.js`. Our `service-worker.js` file handles caching public files, installation, and fetching.
+
+We also need a `manifest.webmanifest` file in order to create out PWA. This manifest is imported into our `index.html` file within the `HEAD` element. Since this is a relatively simple application, I kept the manifest relatively simple as well. Notice that our manifest is written in JSON script style:
+
+```sh
+{
+  "name": "Budget Tracker",
+  "short_name": " Budget Tracker",
+  "icons": [
+    {
+      "src": "/assets/images/budgetIcon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
+
+```
 
 ## Technologies
 

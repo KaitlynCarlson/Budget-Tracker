@@ -5,16 +5,26 @@ Installable Budget Tracker PWA with offline and online capabilities. Much of thi
 ## Table of Contents
 
 - [Overview](#Overview)
+- [Technologies](#Technologies)
 - [Install Budget Tracker on Device](#Install-Budget-Tracker-on-Device)
 - [Run Application Locally](#Run-Application-Locally)
 - [Functionality](#Functionality)
-- [Technologies](#Technologies)
 
 ## Overview
 
 Budget Tracker emables users to add expenses and deposits to their budget. They can do so both with a network connection and without one. If, the users enters transactions while there is no network connection that data will populate the budget total when the network is available.
 
 Budget Tracker is a PWA. What does that mean for the Buget Tracker App? It is installable- users can interact with Budget Tracker as if it was a native app on their device. It can load without any network connecton and sync updates without interferring with the user's experience on the front-end of the application.
+
+## Technologies
+
+- JavaScript
+- IndexedDB
+- Express
+- MongoDB
+- Mongoose
+- Font Awesome
+- Bootstrap
 
 ## Install Budget Tracker on Device
 
@@ -85,13 +95,3 @@ We also need a `manifest.webmanifest` file in order to create out PWA. This mani
 }
 
 ```
-
-## Technologies
-
-- JavaScript
-- IndexedDB
-- Express
-- MongoDB
-- Mongoose
-- Font Awesome
-- Bootstrap

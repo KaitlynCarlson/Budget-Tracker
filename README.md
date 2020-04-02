@@ -1,6 +1,6 @@
 # PWA Budget Tracker
 
-Installable Budget Tracker PWA with offline and online capabilities.
+Installable Budget Tracker PWA with offline and online capabilities. Much of this application was built during an in-class activity during the University of Washington Full-stack Web Development Bootcamp. In this rendition we were tasked with creating a Service Worker and Manifest in order to make this application a PWA.
 
 ## Table of Contents
 
@@ -43,3 +43,11 @@ An example interaction of adding an expense to our installed Buget Tracker is pr
 ![Add Expense](./client/assets/images/exampleInteraction.gif)
 
 ## Technologies
+
+- JavaScript
+- IndexedDB
+- Express
+- MongoDB
+- Mongoose
+- Font Awesome
+- Bootstrap

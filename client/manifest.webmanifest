@@ -3,7 +3,7 @@
   "short_name": " Budget Tracker",
   "icons": [
     {
-      "src": "./images/budgetIcon.png",
+      "src": "/assets/images/budgetIcon.png",
       "sizes": "512x512",
       "type": "image/png"
     }

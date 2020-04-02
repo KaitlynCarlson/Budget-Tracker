@@ -1,10 +1,10 @@
 const FILES_TO_CACHE = [
-  `/db.js`,
+  `/assets/js/db.js`,
   `/index.html`,
-  `/index.js`,
-  `/style.css`,
+  `/assets/js/index.js`,
+  `/assets/css/style.css`,
   `/manifest.webmanifest`,
-  `./images/budgetIcon.png`
+  `/assets/images/budgetIcon.png`
 ];
 
 const STATIC_CACHE = `static-cache-v1`;
